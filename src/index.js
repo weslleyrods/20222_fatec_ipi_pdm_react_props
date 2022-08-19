@@ -45,7 +45,7 @@ const App = ()=>{
                 data='21/08/2022' 
                 icone="fa-solid fa-laptop fa-2x" 
                 titulo="Notebook"
-                descricao="Notebook Dell- 8Gb - i5"/>      
+                descricao="Notebook Dell - 8Gb - i5"/>      
             </div>
         </div>
 
