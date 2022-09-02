@@ -1,9 +1,7 @@
 
-const Pedido = ({data, icone, titulo, descricao})=>{
+const Pedido = ({icone, titulo, descricao})=>{
     return(
-    <div className="card">
-        <div className="card-header text muted">{data}</div>
-        <div className="card-body d-flex">
+        <div className="d-flex">
             <div className="d-flex align-items-center">
                 <i className={icone}></i>
             </div>
@@ -12,7 +10,6 @@ const Pedido = ({data, icone, titulo, descricao})=>{
                 <p className="text-center">{descricao}</p>
             </div>
         </div>
-    </div>
     )
 };
 
